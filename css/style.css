@@ -1,0 +1,32 @@
+
+/* This will create a background that changescolor*/
+.gradient-background {
+  background: linear-gradient(300deg, #106b15, #ff4c68, #3a1fcf);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 70%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* This will round the edges of an SVG*/
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+/* this will make an image a circle*/
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
